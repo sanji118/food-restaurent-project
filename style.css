@@ -1,38 +1,189 @@
-Font: Work Sans
-Font weight: 700
-Font size: 64pxpx
-Row height: 80px
-Letter spacing: 0%
-Align: Align center
-
-
-
-color: rgb(255, 255, 255);
-font-family: Work Sans;
-font-size: 64px;
-font-weight: 700;
-line-height: 80px;
-letter-spacing: 0%;
-text-align: center;
-
-
-/* Experience Culinary Excellence Food Experience */
-hero{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0 ;
+    padding: 0;
+}
+#hero {
+    height: 700px;
+    background-image: linear-gradient(
+        0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%) , 
+        url("../make-essential-UI-components-Resources/assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    color: white;
+}
+#hero .hero-content{
+width: 532px;
+margin: 0 auto;
+}
+#hero .hero-content .subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 9px;
+}
+#hero .hero-content .title{
+    width: 520px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 13px;
+}
+#hero .hero-content .content{
+    width: 532px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 17px;
+}
+#hero .hero-content .button{
+    width: 145px;
+    border-radius: 4px;
+    border: none;
+    background: rgb(82, 195, 3);
+    color: white;
+    padding: 11px 17px 11px 17px;
+    margin: 5px 0px;
+    font-size: 10px;
+    font-family: Work Sans;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.button-container{
+    text-align: center;
+}
+.card-class1{
     position: static;
-    width: 1000px;
-    height: 160px;
-    /* Auto layout */
+    width: 361px;
+    height: 90px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 25px 0px;
+    margin-left: 164px;
+}
+.card-class1 p{
+    width: 95px;
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 9px 0px;
+}
+.card-class1 h1{
+    width: 363px;
+    height: 67px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#card {
+position: static;
+width: 687px;
+height: 273px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 25px 0px;
+}
+#card .card1 {
+    position: static;
+    width: 221px;
+    height: 273px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin-right: 13px;
+    text-align: center;
 }
 
-    /* Inside Auto Layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 16px 0px;
-
-rgb(255, 255, 255)
+#card .card1 .div1{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 8px 18px 8px 18px;
+    border-radius: 5px;
+    background: rgba(82, 195, 3, 0.15);
+}
+#card .card1 .div2 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 14px 0px;
+}
+#card .card1 .div3{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 14px 0px;
+}
+.button-container2{
+    text-align: center;
+}
+.button-container2 .btn{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(82, 195, 3);
+    padding: 11px 17px 11px 17px;
+    border: none;
+    margin: 34px 0px;
+}
