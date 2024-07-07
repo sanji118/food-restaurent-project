@@ -1,0 +1,38 @@
+Font: Work Sans
+Font weight: 700
+Font size: 64pxpx
+Row height: 80px
+Letter spacing: 0%
+Align: Align center
+
+
+
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 64px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0%;
+text-align: center;
+
+
+/* Experience Culinary Excellence Food Experience */
+hero{
+    position: static;
+    width: 1000px;
+    height: 160px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+
+rgb(255, 255, 255)
